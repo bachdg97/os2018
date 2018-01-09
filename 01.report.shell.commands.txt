@@ -1,0 +1,68 @@
+bach@bach-VirtualBox:~$ echo hello world
+hello world
+
+bach@bach-VirtualBox:~$ passwd
+Changing password for bach.
+(current) UNIX password: 
+Enter new UNIX password: 
+Retype new UNIX password: 
+Password unchanged
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+
+bach@bach-VirtualBox:~$ date
+Thứ tư, 10 Tháng một năm 2018 00:02:37 ICT
+
+bach@bach-VirtualBox:~$ hostname
+bach-VirtualBox
+
+bach@bach-VirtualBox:~$ arch
+x86_64
+
+bach@bach-VirtualBox:~$ uname -a
+Linux bach-VirtualBox 4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+
+bach@bach-VirtualBox:~$ dmesg
+[   17.479898] audit: type=1400 audit(1515514355.996:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince-previewer" pid=599 comm="apparmor_parser"
+[   17.479898] audit: type=1400 audit(1515514355.996:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince-previewer//sanitized_helper" pid=599 comm="apparmor_parser"
+[   29.512718] IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+[   29.515202] IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+[   29.519837] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+[   29.520204] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+
+bach@bach-VirtualBox:~$ uptime
+ 00:05:13 up 52 min,  1 user,  load average: 0,18, 0,10, 0,10
+
+bach@bach-VirtualBox:~$ who am i
+
+bach@bach-VirtualBox:~$ who
+bach     tty7         2018-01-09 23:12 (:0)
+
+bach@bach-VirtualBox:~$ who
+bach     tty7         2018-01-09 23:12 (:0)
+
+bach@bach-VirtualBox:~$ id
+uid=1000(bach) gid=1000(bach) groups=1000(bach),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),113(lpadmin),128(sambashare)
+
+bach@bach-VirtualBox:~$ last
+bach     tty7         :0               Tue Jan  9 23:12    gone - no logout
+reboot   system boot  4.10.0-28-generi Tue Jan  9 23:12   still running
+bach     tty7         :0               Fri Jan  5 08:44 - crash (4+14:27)
+reboot   system boot  4.10.0-28-generi Fri Jan  5 08:44   still running
+bach     tty7         :0               Fri Jan  5 02:01 - crash  (06:43)
+reboot   system boot  4.10.0-28-generi Fri Jan  5 02:00   still running
+bach     tty7         :0               Fri Jan  5 02:00 - crash  (00:00)
+reboot   system boot  4.10.0-28-generi Fri Jan  5 01:59   still running
+
+wtmp begins Fri Jan  5 01:59:37 2018
+
+bach@bach-VirtualBox:~$ finger
+The program 'finger' is currently not installed. You can install it by typing:
+sudo apt install finger
+
+bach@bach-VirtualBox:~$ w
+ 00:08:59 up 56 min,  1 user,  load average: 0,74, 0,26, 0,14
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+bach     tty7     :0               23:12   56:24  44.01s  0.20s /sbin/upstart -
+
