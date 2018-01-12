@@ -1,42 +1,21 @@
-Script started on Wed 10 Jan 2018 10:52:02 AM
-]0;bach@bach-VirtualBox: ~[01;32mbach@bach-VirtualBox[00m:[01;34m~[00m$ ls|grep "list"
-]0;bach@bach-VirtualBox: ~[01;32mbach@bach-VirtualBox[00m:[01;34m~[00m$ wc /etc/passwd
+bach@bach-VirtualBox:~$ ls|grep "list"
+
+bach@bach-VirtualBox:~$ wc /etc/passwd
   40   70 2239 /etc/passwd
-]0;bach@bach-VirtualBox: ~[01;32mbach@bach-VirtualBox[00m:[01;34m~[00m$ free
+
+bach@bach-VirtualBox:~$ free
               total        used        free      shared  buff/cache   available
-Mem:        2045960      885948      658208        4532      501804      986572
-Swap:       2095100           0     2095100
-]0;bach@bach-VirtualBox: ~[01;32mbach@bach-VirtualBox[00m:[01;34m~[00m$ /proc/cpuinfo
-bash: /proc/cpuinfo: Permission denied
-]0;bach@bach-VirtualBox: ~[01;32mbach@bach-VirtualBox[00m:[01;34m~[00m$ cat /preoc[K[K[Koc/cpuinfo
-processor	: 0
-vendor_id	: GenuineIntel
-cpu family	: 6
-model		: 60
-model name	: Intel(R) Core(TM) i5-4210H CPU @ 2.90GHz
-stepping	: 3
-cpu MHz		: 2893.316
-cache size	: 3072 KB
-physical id	: 0
-siblings	: 1
-core id		: 0
-cpu cores	: 1
-apicid		: 0
-initial apicid	: 0
-fpu		: yes
-fpu_exception	: yes
-cpuid level	: 13
-wp		: yes
+Mem:        2045960      854452       79232       10808     1112276      975960
+Swap:       2095100         652     2094448
+
+bach@bach-VirtualBox:~$ cat /proc/cpuinfo
 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc pni pclmulqdq monitor ssse3 cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm abm avx2
 bugs		:
-bogomips	: 5786.63
+bogomips	: 5786.61
 clflush size	: 64
 cache_alignment	: 64
 address sizes	: 39 bits physical, 48 bits virtual
 power management:
 
-]0;bach@bach-VirtualBox: ~[01;32mbach@bach-VirtualBox[00m:[01;34m~[00m$ find home/bac[K[K[Kbach[K[K[K[K[K[K[K[K[K/home/n[Kbach/Picite[K[K[Ktures|grep "[K.jpg"[K[K[K[K[K[K ".jpg"
-]0;bach@bach-VirtualBox: ~[01;32mbach@bach-VirtualBox[00m:[01;34m~[00m$ exit
-exit
+bach@bach-VirtualBox:~$ find /home/bach/Pictures|grep ".jpg"
 
-Script done on Wed 10 Jan 2018 10:55:08 AM
