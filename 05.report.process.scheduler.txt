@@ -1,0 +1,13 @@
+bach@bach-VirtualBox:~$ cat /proc/sched_debug|grep 'systemd'
+         systemd     1       490.647748      1927   120         0.000000      1644.170452         0.000000 0 0 /autogroup-2
+ systemd-journal   211       189.168444       771   120         0.000000       190.501398         0.000000 0 0 /autogroup-8
+   systemd-udevd   233      1168.229102       869   120         0.000000       330.983627         0.000000 0 0 /autogroup-11
+ systemd-timesyn   328        26.551951        51   120         0.000000        21.343166         0.000000 0 0 /autogroup-28
+  systemd-logind   609        24.028754       290   120         0.000000        25.321259         0.000000 0 0 /autogroup-48
+         systemd   974        43.608202        36   120         0.000000        39.694400         0.000000 0 0 /autogroup-72
+
+bach@bach-VirtualBox:~$ cat /proc/1/sched|grep switches
+nr_switches                                  :                 1963
+nr_voluntary_switches                        :                 1060
+nr_involuntary_switches                      :                  903
+
