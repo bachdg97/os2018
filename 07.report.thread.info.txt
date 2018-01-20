@@ -1,0 +1,9 @@
+bach@bach-VirtualBox:~$ ps -e|grep firefox
+ 2939 ?        00:00:06 firefox
+bach@bach-VirtualBox:~$ ps -o nlwp 2939
+NLWP
+  52
+
+bach@bach-VirtualBox:~$ ls /proc/2939/task|wc -w
+52
+
